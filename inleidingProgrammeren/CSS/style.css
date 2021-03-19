@@ -1,0 +1,103 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+}
+
+header div{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #efefef;
+    border-bottom: none;
+}
+
+header img{
+    width: 150px;
+    height: auto;
+}
+
+.container{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    background-color: #f6f6f6;
+    border: 1px solid #efefef;
+}
+
+.content{
+    padding: 20px 0px;
+}
+
+.schoen{
+    margin: 60px 0px 20px 0px;
+}
+
+#schoenFoto, #schoenZool, #schoenLogo{
+    width: 600px;
+    height: auto;
+}
+
+#schoenZool, #schoenLogo{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.knoppen{
+    padding: 0px 0px 50px 0px;
+}
+
+.knoppen button, #maatButton{
+    background-color: #000;
+    color: #ffff;
+    font-size: 1.2rem;
+    border: 0px;
+    padding: 15px 25px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+#maatSchoen{
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+}
+
+.maat{
+    padding: 0px 0px 40px 0px;
+}
+
+#error-bericht{
+    display: none;
+    background-color: #ff9f9f;
+    color: #840101;
+    width: 250px;
+    margin: 25px auto 0px auto;
+    padding: 5px;
+    border: 1px solid #840101;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    #schoenFoto, #schoenZool, #schoenLogo{
+        width: 100%;
+        height: auto;
+    }
+
+    .knoppen{
+        display: grid;
+    }
+
+    .knoppen button{
+        margin: 10px 0px;
+    }
+}
